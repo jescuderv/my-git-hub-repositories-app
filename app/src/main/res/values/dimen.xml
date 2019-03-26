@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Horizontal margin-->
+    <dimen name="default_layout_margin">16dp</dimen>
+    <!--Vertical margin-->
+    <dimen name="item_list_separation">4dp</dimen>
+    <dimen name="separation_margin_1">8dp</dimen>
+    <dimen name="separation_margin_2">16dp</dimen>
+    <dimen name="separation_margin_3">32dp</dimen>
+    <dimen name="separation_margin_4">40dp</dimen>
+    <dimen name="separation_margin_5">48dp</dimen>
+    <dimen name="separation_margin_6">56dp</dimen>
+    <dimen name="separation_margin_7">64dp</dimen>
+
+    <!--Card-->
+    <dimen name="card_radius">10dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+
+    <!--Images-->
+    <dimen name="avatar_big">100dp</dimen>
+    <dimen name="avatar_default">60dp</dimen>
+    <dimen name="icon_small">10dp</dimen>
+    <dimen name="icon_medium">20dp</dimen>
+
+    <!--Text size-->
+    <dimen name="text_h1">96sp</dimen>
+    <dimen name="text_h2">60sp</dimen>
+    <dimen name="text_h3">48sp</dimen>
+    <dimen name="text_h4">34sp</dimen>
+    <dimen name="text_h5">24sp</dimen>
+    <dimen name="text_h6">20sp</dimen>
+    <dimen name="text_subtitle1">16sp</dimen>
+    <dimen name="text_subtitle2">14sp</dimen>
+    <dimen name="text_body1">16sp</dimen>
+    <dimen name="text_body2">14sp</dimen>
+    <dimen name="text_button">14sp</dimen>
+    <dimen name="text_caption">12sp</dimen>
+    <dimen name="text_overline">10sp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My GitHub App</string>
+
+    <!--Repository list-->
+    <string name="repositories_search">Search</string>
+
+    <!--Repository Details-->
+    <string name="repository_details_language">Language: </string>
+    <string name="repository_details_url">URL: </string>
+    <string name="repository_details_error">Error retrieving data. Try again!</string>
+
+    <!--Transition-->
+    <string name="trans_profile_image_users">trans_profile_image_users</string>
+</resources>

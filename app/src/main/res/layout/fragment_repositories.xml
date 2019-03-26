@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.RepositoriesFragment">
+
+
+    <SearchView
+        android:id="@+id/repositories_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_layout_margin"
+        android:layout_marginTop="@dimen/default_layout_margin"
+        android:layout_marginEnd="@dimen/default_layout_margin"
+        android:layout_marginBottom="@dimen/separation_margin_1"
+        android:background="@drawable/box_rounded"
+        android:elevation="@dimen/card_elevation"
+        android:iconifiedByDefault="false"
+        android:queryBackground="@android:color/transparent"
+        android:queryHint="@string/repositories_search" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/repositories_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/repositories_list_progress"
+        android:layout_below="@+id/repositories_search_view" />
+
+    <ProgressBar
+        android:id="@+id/repositories_list_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone" />
+</RelativeLayout>
